@@ -1,8 +1,6 @@
 import dayjs from "dayjs";
 
-let relativeTime = require("dayjs/plugin/relativeTime");
-dayjs.extend(relativeTime);
-
+//Fechas a calcular
 const fecha1 = dayjs("1992-10-09");//fecha a comparar
 const fecha2 = dayjs();//fecha actual
 
